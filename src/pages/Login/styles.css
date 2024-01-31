@@ -1,0 +1,101 @@
+.color-white {
+  color: #f5f7f7 !important;
+}
+
+.color-primary {
+  color: #0bb07b;
+}
+
+.color-gray {
+  color: #7c7d80;
+}
+
+.color-red {
+  color: #f04d3d;
+}
+
+.color-green {
+  color: #0bb07b;
+}
+
+.color-yellow {
+  color: #ffce52;
+}
+
+.color-blue {
+  color: #2dc7ed;
+}
+
+.color-destaque {
+  background: var(--gradient-g-0, linear-gradient(225deg, #5390e3 8.12%, #1357b3 92.21%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-login {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.select-login {
+  background-color: transparent;
+  outline: none;
+  padding: 12px 24px;
+  width: 250px;
+  border: 1px solid #7c7d80;
+  border-radius: 12px;
+}
+
+.esqueceu {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.semvh {
+  height: 100vh;
+}
+
+.btn-login {
+  width: 35%;
+  border-radius: 20px;
+  margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.btn-login:hover {
+  background-color: #086c54;
+  transform: scale(1.05);
+}
+
+.input-login {
+  background-color: transparent;
+  outline: none;
+  padding: 12px 24px;
+  width: 250px;
+  border: 1px solid #7c7d80;
+  border-radius: 12px;
+}
+
+.login-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 12px;
+  gap: 30px;
+}
+.login-left h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3e3f40;
+}
+
+.logo-2 {
+  height: 350px;
+  margin-bottom: 25px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,138 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-search {
+  max-width: 300px;
+}
+
+.contracts {
+  background-color: #f8f8f8;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  padding: 0 15px;
+}
+.contracts h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #333;
+  text-align: start;
+  width: 100%;
+  text-transform: capitalize;
+}
+.contracts ul {
+  width: 100%;
+  overflow-y: auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contracts ul li {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+.contracts ul li:hover {
+  transform: scale(1.05);
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.contract-form-container {
+  display: flex;
+  gap: 25px;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  width: 100%;
+}
+.search-input-container img {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  height: 26px;
+}
+.search-input-container img:hover {
+  transform: scale(1.09);
+}
+
+.modal-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+}
+
+.btn-red {
+  background-color: #f55454;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 2rem;
+}
+.btn-red:hover {
+  background-color: #fafafa;
+  color: #f55454;
+}
+
+.contract-link-search {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: 10px;
+  padding: 10px 10px;
+  margin: 2px 0;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.5s ease;
+}
+.contract-link-search:hover {
+  background: #f9f5f5;
+}
+
+.delete-button {
+  transition: all 0.5s ease-in-out;
+}
+.delete-button:hover {
+  transform: scale(1.1);
+  opacity: 0.4;
+} /*# sourceMappingURL=styles.css.map */

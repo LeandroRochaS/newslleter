@@ -1,0 +1,64 @@
+.addnewnotice-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute; /* Alterada de 'absolute' para 'relative' */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-addnotice-container {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addnewnotice-form {
+  width: 95%;
+}
+.addnewnotice-form input,
+.addnewnotice-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputform {
+  outline: none;
+}
+
+.icon-10 {
+  height: 36px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.icon-10:hover {
+  transform: rotate(90deg);
+}
+
+.addnewnotice-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.addnewnotice-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.addnewnotice-btn {
+  transition: all 0.3s ease-in-out;
+}
+.addnewnotice-btn:hover {
+  opacity: 0.6;
+}/*# sourceMappingURL=styles.css.map */

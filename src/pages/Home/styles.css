@@ -1,0 +1,38 @@
+.home-content {
+  display: flex;
+  flex-direction: row;
+}
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #334222;
+  text-align: center;
+}
+.home-content p {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  color: #334222;
+  text-align: center;
+}
+
+.home-left,
+.home-right {
+  margin-top: 9rem;
+}
+
+.home-logo {
+  margin-top: 2rem;
+  width: 250px;
+  height: 52px;
+}
+
+.dividir {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -23%);
+  border-right: 2px solid #334222;
+  border-right-style: dashed;
+  height: 620px;
+}/*# sourceMappingURL=styles.css.map */

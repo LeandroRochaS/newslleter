@@ -1,0 +1,9 @@
+{
+  "/contratos": "/contratos",
+  "/contratos/:contratoId": "/contratos/:contratoId",
+  "/contratos/:contratoId/processos": "/contratos/:contratoId/processos",
+  "/contratos/:contratoId/processos/:processoId": "/contratos/:contratoId/processos/:processoId",
+  "/contratos/:contratoId/processos/:processoId/etapas": "/contratos/:contratoId/processos/:processoId/etapas",
+  "/contratos/:contratoId/processos/:processoId/etapas/:etapaId": "/contratos/:contratoId/processos/:processoId/etapas/:etapaId",
+  "/contratos/:contratoId/processos/:processoId/etapas/:etapaId/atualizacoes": "/contratos/:contratoId/processos/:processoId/etapas/:etapaId/atualizacoes"
+}

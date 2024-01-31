@@ -1,0 +1,57 @@
+.color-white {
+  color: #f5f7f7 !important;
+}
+
+.color-primary {
+  color: #0bb07b;
+}
+
+.color-gray {
+  color: #7c7d80;
+}
+
+.color-red {
+  color: #f04d3d;
+}
+
+.color-green {
+  color: #0bb07b;
+}
+
+.color-yellow {
+  color: #ffce52;
+}
+
+.color-blue {
+  color: #2dc7ed;
+}
+
+.color-destaque {
+  background: var(--gradient-g-0, linear-gradient(225deg, #5390e3 8.12%, #1357b3 92.21%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-new-top {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.img-post {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 420px;
+}
+
+.title-down {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.content-down {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: #5d5e60;
+  font-weight: 400;
+}/*# sourceMappingURL=styles.css.map */

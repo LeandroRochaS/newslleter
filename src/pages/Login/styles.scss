@@ -1,0 +1,69 @@
+@import "../../styles/sass/colors";
+.title-login {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.select-login {
+  background-color: transparent;
+  outline: none;
+  padding: 12px 24px;
+  width: 250px;
+  border: 1px solid $gray-5;
+  border-radius: 12px;
+}
+
+.esqueceu {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.semvh {
+  height: 100vh;
+}
+
+.btn-login {
+  width: 35%;
+  border-radius: 20px;
+  margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $green;
+    transform: scale(1.05);
+  }
+}
+
+.input-login {
+  background-color: transparent;
+  outline: none;
+  padding: 12px 24px;
+  width: 250px;
+  border: 1px solid $gray-5;
+  border-radius: 12px;
+}
+
+.login-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 12px;
+  gap: 30px;
+
+  h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $gray-1;
+  }
+}
+
+.logo-2 {
+  height: 350px;
+  margin-bottom: 25px;
+}

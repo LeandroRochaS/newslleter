@@ -1,0 +1,36 @@
+@import "./colors";
+@import "./layout";
+
+.btn {
+  display: inline-block;
+  color: $white-light;
+  padding: 8px 24px;
+  background: $green-normal;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn-secondary {
+  display: inline-block;
+  color: $white-light;
+  padding: 8px 24px;
+  background: $black-light;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn-login {
+  padding: 12px 24px;
+}
+
+a {
+  text-decoration: none;
+
+  color: $white-light;
+  transition: 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+  }
+}
