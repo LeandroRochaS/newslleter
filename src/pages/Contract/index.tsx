@@ -72,6 +72,11 @@ export default function Contract() {
     }
   }, [id, userDataAuthContext, verifyLogged]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  function handleBack() {
+    navigate(-1);
+  }
+
   return (
     <>
       <Header />

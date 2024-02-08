@@ -10,10 +10,10 @@ export default function SearchInput() {
 
   function handleSearch(e) {
     e.preventDefault();
-    const id = e.target.id.value;
+    let id = e.target.id.value;
     if (id == null || id == undefined) return;
     const setores = carregarSetoresLocalStorage();
-
+    id = id.toUpperCase();
     for (const setorKey in setores) {
       if (Object.prototype.hasOwnProperty.call(setores, setorKey)) {
         const setor = setores[setorKey];
