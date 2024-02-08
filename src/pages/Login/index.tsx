@@ -66,6 +66,7 @@ export default function Login() {
                   className="input-login"
                   value={form.user}
                   onChange={onChange}
+                  autoComplete="off"
                 />
               </div>
               <div className="w-50 flex-column-center">
@@ -77,6 +78,7 @@ export default function Login() {
                   className="input-login"
                   value={form.password}
                   onChange={onChange}
+                  autoComplete="off"
                 />
               </div>
               <p className="color-red text-center esqueceu">

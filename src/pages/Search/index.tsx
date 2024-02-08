@@ -124,6 +124,7 @@ export default function Search() {
                 <option value="sopsms">SOP/SMS</option>
                 <option value="sopalso">SOP/ALSO</option>
                 <option value="gstdenpi">GSTD/ENPI</option>
+                <option value="giad">GIAD</option>
               </select>
             </div>
           )}
